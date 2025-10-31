@@ -92,8 +92,13 @@ Deve aparecer algo assim:
 ✅ Etapa 7 - Estrutura final esperada
 -------------------------------------
 rosbot3_simulation/
+
 ├── src/
+
 │   ├── ros_commons/           (submódulo)
+
 │   ├── rosbot3_description/   (submódulo)
+
 │   └── rosbot3_gazebo/        (submódulo)
+
 └── README.md
