@@ -1,7 +1,7 @@
 # 🚀 CONFIGURAÇÃO COMPLETA DO WORKSPACE ROS COM SSH
 
 Autor: **Vito Franzosi**  
-📧 vitofranzosi@exemplo.com  
+📧 vitofranzosi@gmail.com  
 
 ---
 
@@ -16,26 +16,35 @@ rosbot3_simulation/
 └── README.md
 ```
 
-🧩 1. Criar e configurar a autenticação SSH
---------------------------------------------
+## 🧩 1. Criar e configurar a autenticação SSH
+
   🔹 Gerar chave SSH
+  ```bash
        sh-keygen -t ed25519 -C "seu_email@exemplo.com"
+  ```
   🔹 Adicionar chave ao agente
+  ```bash
        eval "$(ssh-agent -s)"
        ssh-add ~/.ssh/id_ed25519
+  ```
   🔹 Adicionar chave ao GitHub
+  ```bash
      Copie a chave pública:
        cat ~/.ssh/id_ed25519.pub
      Depois, acesse:
        GitHub → Settings → SSH and GPG keys → New SSH key
        Cole a chave e clique em Add SSH key.
+  ```
   🔹 Testar conexão
+  ```bash
        ssh -T git@github.com
-     Se tudo estiver certo:
-       Hi vitofranzosi! You've successfully authenticated, but GitHub does not provide shell access.
+       
+       Se tudo estiver certo:
+         Hi vitofranzosi! You've successfully authenticated, but GitHub does not provide shell access.
+  ```
 
-🧩 2. Criar os repositórios no GitHub
---------------------------------------
+## 🧩 2. Criar os repositórios no GitHub
+
 Crie quatro repositórios vazios (sem README, .gitignore ou licença):
 1. ros_commons
 2. rosbot3_description
