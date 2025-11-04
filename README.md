@@ -52,12 +52,13 @@ Crie quatro repositórios vazios (sem README, .gitignore ou licença):
 4. rosbot3_simulation (workspace principal)
 Todos podem ser públicos ou privados.
 
-🧩 3. Criar e enviar cada pacote localmente
---------------------------------------------
+## 🧩 3. Criar e enviar cada pacote localmente
+
 Execute os comandos dentro da pasta onde você trabalha
 (por exemplo: ~/ROS2AMR/docker/docker_environment).
 
 📦 ros_commons
+```bash
   cd ~/ROS2AMR/docker/docker_environment
   mkdir ros_commons && cd ros_commons
   git init
@@ -68,8 +69,10 @@ Execute os comandos dentro da pasta onde você trabalha
   git branch -M main
   git remote add origin git@github.com:vitofranzosi/ros_commons.git
   git push -u origin main
+```
 
 📦 rosbot3_description
+```bash
   cd ~/ROS2AMR/docker/docker_environment
   mkdir rosbot3_description && cd rosbot3_description
   git init
@@ -80,8 +83,10 @@ Execute os comandos dentro da pasta onde você trabalha
   git branch -M main
   git remote add origin git@github.com:vitofranzosi/rosbot3_description.git
   git push -u origin main
+```
 
 📦 rosbot3_gazebo
+```bash
   cd ~/ROS2AMR/docker/docker_environment
   mkdir rosbot3_gazebo && cd rosbot3_gazebo
   git init
@@ -92,9 +97,10 @@ Execute os comandos dentro da pasta onde você trabalha
   git branch -M main
   git remote add origin git@github.com:vitofranzosi/rosbot3_gazebo.git
   git push -u origin main
+```
 
-🧩 4. Criar o workspace principal
-----------------------------------
+## 🧩 4. Criar o workspace principal
+```bash
   cd ~/ROS2AMR/docker/docker_environment
   mkdir -p rosbot3_simulation/src
   cd rosbot3_simulation
@@ -106,9 +112,10 @@ Execute os comandos dentro da pasta onde você trabalha
   git branch -M main
   git remote add origin git@github.com:vitofranzosi/rosbot3_simulation.git
   git push -u origin main
+```
 
-🧩 5. Adicionar os pacotes como submódulos
---------------------------------------------
+## 🧩 5. Adicionar os pacotes como submódulos
+```bash
   cd src
   git submodule add git@github.com:vitofranzosi/ros_commons.git ros_commons
   git submodule add git@github.com:vitofranzosi/rosbot3_description.git rosbot3_description
@@ -117,9 +124,10 @@ Execute os comandos dentro da pasta onde você trabalha
   git add .gitmodules src/
   git commit -m "Adiciona submódulos dos pacotes ROS"
   git push
+```
 
-🧩 6. Testar clonagem completa
--------------------------------
+## 🧩 6. Testar clonagem completa
+
 Agora qualquer pessoa (ou você mesmo, em outro computador) pode clonar tudo assim:
   git clone --recurse-submodules git@github.com:vitofranzosi/rosbot3_simulation.git
 
@@ -131,7 +139,9 @@ d) Estrutura 100% compatível com ROS
 
 💡 Dica
 Para atualizar todos os submódulos depois de alterações nos pacotes individuais:
+```bash
   git submodule update --remote --merge
   git add src/
   git commit -m "Atualiza submódulos"
   git push
+```
