@@ -131,11 +131,13 @@ Execute os comandos dentro da pasta onde você trabalha
 Agora qualquer pessoa (ou você mesmo, em outro computador) pode clonar tudo assim:
   git clone --recurse-submodules git@github.com:vitofranzosi/rosbot3_simulation.git
 
-✅ Resultado final
+## ✅ Resultado final
+```bash
 a) Nenhuma senha ou token será pedido (tudo via SSH 🔐)
 b) Todos os pacotes têm commits e repositórios próprios
 c) O workspace rosbot3_simulation agrega os três pacotes como submódulos
 d) Estrutura 100% compatível com ROS
+```
 
 💡 Dica
 Para atualizar todos os submódulos depois de alterações nos pacotes individuais:
