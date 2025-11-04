@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>rosbot3_gazebo</name>
+    <version>0.1.0</version>
+    <description>Gazebo integration for ROSbot3 simulation.</description>
+    <maintainer email="vito.franzosi@gmail.com">Vito Rodrigues Franzosi</maintainer>
+    <license>Apache-2.0</license>
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <depend>gazebo_ros</depend>
+    <depend>robot_state_publisher</depend>
+    <depend>xacro</depend>
+    <depend>rviz2</depend>
+    <depend>rqt_robot_steering</depend>
+    <exec_depend>ros2launch</exec_depend>
+</package>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>rosbot3_description</name>
+    <version>0.1.0</version>
+    <description>URDF/xacro description for ROSbot3.</description>
+    <maintainer email="vito.franzosi@gmail.com">Vito Rodrigues Franzosi</maintainer>
+    <license>Apache-2.0</license>
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <depend>xacro</depend>
+    <depend>ros2_control</depend>
+    <depend>gazebo_ros</depend>
+    <depend>sensor_msgs</depend>
+    <exec_depend>rclpy</exec_depend>
+</package>

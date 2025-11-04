@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake --build /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons -- -j4 -l4
+[0.076s] Invoked command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons' returned '0': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake --build /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons -- -j4 -l4
+[0.079s] Invoking command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake --install /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ament_index/resource_index/package_run_dependencies/ros_commons
+[0.094s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ament_index/resource_index/parent_prefix_path/ros_commons
+[0.094s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/environment/path.sh
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/environment/path.dsv
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/local_setup.bash
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/local_setup.sh
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/local_setup.zsh
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/local_setup.dsv
+[0.095s] -- Installing: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/package.dsv
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ament_index/resource_index/packages/ros_commons
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/cmake/ros_commonsConfig.cmake
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/cmake/ros_commonsConfig-version.cmake
+[0.095s] -- Up-to-date: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/ros_commons/share/ros_commons/package.xml
+[0.134s] Invoked command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons' returned '0': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake --install /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/ros_commons

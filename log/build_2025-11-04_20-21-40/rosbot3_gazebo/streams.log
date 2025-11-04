@@ -1,0 +1,44 @@
+[0.020s] Invoking command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_gazebo': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.189s] Error parsing '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_gazebo/package.xml':
+[0.190s] Traceback (most recent call last):
+[0.190s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.190s]     root = dom.parseString(data)
+[0.190s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.190s]     return expatbuilder.parseString(string)
+[0.190s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.190s]     return builder.parseString(string)
+[0.190s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.190s]     parser.Parse(string, True)
+[0.190s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 1
+[0.190s] 
+[0.190s] During handling of the above exception, another exception occurred:
+[0.190s] 
+[0.190s] Traceback (most recent call last):
+[0.190s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.190s]     main()
+[0.190s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.191s]     raise e
+[0.191s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.191s]     package = parse_package_string(
+[0.191s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.191s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.191s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_gazebo/package.xml':
+[0.191s] The manifest contains invalid XML:
+[0.191s] not well-formed (invalid token): line 1, column 1
+[0.199s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.199s]   execute_process(/home/user/ros2/bin/python3
+[0.199s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.199s]   /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_gazebo/package.xml
+[0.199s]   /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_gazebo/ament_cmake_core/package.cmake)
+[0.199s]   returned error code 1
+[0.199s] Call Stack (most recent call first):
+[0.199s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.199s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.199s]   CMakeLists.txt:5 (ament_package)
+[0.200s] 
+[0.200s] [0m
+[0.200s] -- Configuring incomplete, errors occurred!
+[0.200s] See also "/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.202s] Invoked command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_gazebo' returned '1': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo

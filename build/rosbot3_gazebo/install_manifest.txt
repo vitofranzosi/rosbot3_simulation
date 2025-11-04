@@ -1,0 +1,15 @@
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/ament_index/resource_index/package_run_dependencies/rosbot3_gazebo
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/ament_index/resource_index/parent_prefix_path/rosbot3_gazebo
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/environment/ament_prefix_path.sh
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/environment/ament_prefix_path.dsv
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/environment/path.sh
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/environment/path.dsv
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/local_setup.bash
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/local_setup.sh
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/local_setup.zsh
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/local_setup.dsv
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/package.dsv
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/ament_index/resource_index/packages/rosbot3_gazebo
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/cmake/rosbot3_gazeboConfig.cmake
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/cmake/rosbot3_gazeboConfig-version.cmake
+/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_gazebo/share/rosbot3_gazebo/package.xml

@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_description': PS1=(ros2) [\u@\h:\W]\$ VIRTUAL_ENV_PROMPT=(ros2) /usr/bin/cmake /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/src/rosbot3_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/install/rosbot3_description
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.590s] -- The CXX compiler identification is GNU 11.4.0
+[0.602s] -- Detecting C compiler ABI info
+[0.709s] -- Detecting C compiler ABI info - done
+[0.715s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.716s] -- Detecting C compile features
+[0.719s] -- Detecting C compile features - done
+[0.727s] -- Detecting CXX compiler ABI info
+[0.831s] -- Detecting CXX compiler ABI info - done
+[0.838s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.838s] -- Detecting CXX compile features
+[0.838s] -- Detecting CXX compile features - done
+[0.872s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.118s] -- Found Python3: /home/user/ros2/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.282s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.356s] -- Configuring done
+[1.366s] -- Generating done
+[1.367s] [33mCMake Warning:
+[1.367s]   Manually-specified variables were not used by the project:
+[1.367s] 
+[1.367s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.367s]     CATKIN_SYMLINK_INSTALL
+[1.367s] 
+[1.367s] [0m
+[1.369s] -- Build files have been written to: /home/user/ROS2AMR/docker/docker_environment/rosbot3_simulation/build/rosbot3_description
