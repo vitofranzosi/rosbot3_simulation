@@ -14,6 +14,7 @@ rosbot3_simulation/
 │   ├── rosbot3_description/   (submódulo)
 │   └── rosbot3_gazebo/        (submódulo)
 └── README.md
+```
 
 🧩 1. Criar e configurar a autenticação SSH
 --------------------------------------------
